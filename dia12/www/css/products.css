@@ -1,0 +1,54 @@
+@import "styles.css";
+
+/* Generic styles */
+
+article {
+  display: flex;
+}
+
+article img {
+  width: 40%;
+  margin: 1rem;
+}
+
+article a {
+  color: white;
+  background-color: #0080ff;
+  text-decoration: none;
+  padding: 0.6rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.prices h1 {
+  text-align: center;
+}
+
+table {
+  margin: 1rem auto;
+  width: 90%;
+}
+
+th {
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+/* Big screens */
+@media (min-width: 800px) {
+  section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  article {
+    flex-basis: 50%;
+  }
+
+  .prices {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,74 @@
+@import "styles.css";
+
+/* Generic styles */
+
+main h2 {
+  display: none;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  border: 1px solid lightgrey;
+  width: 90%;
+  margin: 0 auto;
+}
+
+section header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+section h1 {
+  text-align: center;
+}
+
+section header img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  order: -1;
+  border: 1px solid lightgrey;
+}
+
+section p {
+  max-width: 100%;
+  padding: 1rem;
+}
+
+.products {
+  border: none;
+}
+
+.products .text {
+  display: flex;
+}
+
+.text p {
+  padding: 1rem;
+}
+
+.text img {
+  margin: 1rem;
+}
+
+/* Big screens */
+
+@media (min-width: 800px) {
+  main h2 {
+    display: block;
+  }
+
+  .cards {
+    display: flex;
+  }
+
+  .cards section {
+    width: 50%;
+    margin: 1rem;
+  }
+}

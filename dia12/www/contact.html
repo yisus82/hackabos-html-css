@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="css/contact.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <h1>Cool products</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Main page</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h2>Contact us</h2>
+      <form action="" method="post">
+        <ul>
+          <li>
+            <label for="name">Full Name</label>
+            <input type="text" name="name" id="name" required />
+          </li>
+          <li>
+            <label for="comments">Comments</label>
+            <textarea
+              name="comments"
+              id="comments"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </li>
+          <li>
+            <label for="province">Province</label>
+            <select name="province" id="province">
+              <option value="1">A Coruña</option>
+              <option value="2">Lugo</option>
+              <option value="3">Ourense</option>
+              <option value="4">Pontevedra</option>
+            </select>
+          </li>
+          <li>
+            <label for="city">City</label>
+            <select name="city" id="city">
+              <option value="1">A Coruña</option>
+              <option value="2">Lugo</option>
+              <option value="3">Ourense</option>
+              <option value="4">Pontevedra</option>
+              <option value="5">Ferrol</option>
+              <option value="6">Santiago</option>
+              <option value="7">Mondoñedo</option>
+              <option value="8">Vigo</option>
+            </select>
+          </li>
+        </ul>
+        <button type="submit">Send</button>
+      </form>
+      <aside>
+        <p>Also by:</p>
+        <ul>
+          <li><i class="fas fa-phone"></i> 981000000</li>
+          <li><i class="fab fa-facebook-square"></i> coolproducts</li>
+        </ul>
+      </aside>
+      <section class="address">
+        <h2>Address</h2>
+        <address>
+          <p><strong>Cool products</strong></p>
+          <p>Ciudad Vieja, s/n</p>
+          <p>15001 A Coruña</p>
+        </address>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11601.671398718196!2d-8.385570200000023!3d43.36828635000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2e7b819e1a8f19%3A0x7f4b7eed7caf339!2sCdad.+Vieja%2C+A+Coru%C3%B1a!5e0!3m2!1sgl!2ses!4v1547891206402"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <footer>
+        <div class="copyright">
+          <p>(c) 2019 Hackabos</p>
+          <p>This web was made in Hackabos HTML and CSS course</p>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Main page</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </footer>
+    </main>
+  </body>
+</html>
